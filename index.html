@@ -972,7 +972,29 @@ Copyright &copy; 2020 All rights reserved | Made with <i class="fa fa-heart-o" a
 </footer>
 
 
+<script>
+    
+document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'amihacks',
+    }
 
+    let script = document.createElement('script');
+    script.src = "https://apply.devfolio.co";
+    document.head.append(script);
+
+    script.onload = function () {
+        new Devfolio(devfolioOptions);
+    }
+
+    script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+    }
+});
+   </script>
 <script src="js/jquery.min.js" type="aeba2276dd173186bd6c357a-text/javascript"></script>
 
 <script src="js/popper.min.js" type="aeba2276dd173186bd6c357a-text/javascript"></script>
