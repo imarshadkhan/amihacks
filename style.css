@@ -15,7 +15,7 @@ body {
     -webkit-box-align: center;
     align-items: center;
     background-color: #3770FF;
-    border-radius: 6px;
+    border-radius: 3px;
     border: none;
     color: #FFFFFF;
     cursor: pointer;
@@ -23,9 +23,9 @@ body {
     display: -webkit-box;
     display: flex;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
-    padding: 6px 10px;
+    padding: 12px 20px;
     text-align: center;
     text-transform: lowercase;
 }
@@ -37,6 +37,7 @@ body {
 #devfolio-apply-now:hover {
     background-color: #2954BF !important;
 }
+
 h1,h2,h3,h4,h5,h6 {
     font-family: poppins,sans-serif;
     color: #111343;
