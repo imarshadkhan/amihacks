@@ -21,7 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.head.append(script);
 
     script.onload = function () {
-        new Devfolio(devfolioOptions);
+       document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
     }
 
     script.onerror = function () {
