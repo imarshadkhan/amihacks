@@ -1015,28 +1015,6 @@ Copyright &copy; 2020 All rights reserved | Made with <i class="fa fa-heart-o" a
 </script>
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="aeba2276dd173186bd6c357a-|49" defer=""></script>
 
-<script>
-    
-document.addEventListener('DOMContentLoaded', function () {
-    let devfolioOptions = {
-        buttonSelector: '#devfolio-apply-now',
-        key: 'amihacks',
-    }
 
-    let script = document.createElement('script');
-    script.src = "https://apply.devfolio.co";
-    document.head.append(script);
-
-    script.onload = function () {
-        new Devfolio(devfolioOptions);
-    }
-
-    script.onerror = function () {
-        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-        });
-    }
-});
-   </script>
     </body>
 </html>
