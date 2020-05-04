@@ -1,0 +1,2 @@
+RewriteEngine On
+Redirect 301 /subdirectory http://www.anotherdomain.com/subdirectory
