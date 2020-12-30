@@ -3807,8 +3807,8 @@ textarea:invalid,input:invalid,textarea:required,input:required {
 }
 @media only screen and (min-width: 767px) {
     .map-area iframe {
-    height: 580
-    width: 100%;
+    height: 580;
+    width : 100%;
     border: none
 }}
 @media only screen and (max-width: 767px) {
