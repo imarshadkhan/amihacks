@@ -10,6 +10,6 @@ confer_window.on('scroll',function(){if(confer_window.scrollTop()>0){$('.header-
 if($.fn.tooltip){$('[data-toggle="tooltip"]').tooltip();}
 if(confer_window.width()>767){new WOW().init();}
 if($.fn.jarallax){$('.jarallax').jarallax({speed:0.5});}
-if($.fn.countdown){$("#clock").countdown("2020/05/08",function(event){$(this).html(event.strftime("<div>%D <span>Days</span></div> <div>%H <span>Hours</span></div> <div>%M <span>Minutes</span></div> <div>%S <span>Seconds</span></div>"));});}
+if($.fn.countdown){$("#clock").countdown("2021/03/11",function(event){$(this).html(event.strftime("<div>%D <span>Days</span></div> <div>%H <span>Hours</span></div> <div>%M <span>Minutes</span></div> <div>%S <span>Seconds</span></div>"));});}
 if($.fn.scrollUp){confer_window.scrollUp({scrollSpeed:1000,scrollText:'<i class="arrow_carrot-up"</i>'});}
 $('a[href="#"]').on('click',function($){$.preventDefault();});var pricingTable=$(".single-ticket-pricing-table");pricingTable.on("mouseenter",function(){pricingTable.removeClass("active");$(this).addClass("active");});})(jQuery);
